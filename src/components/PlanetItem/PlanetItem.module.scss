@@ -9,6 +9,14 @@
     justify-content: center;
     border: 2px solid rgba(white, 0.2);
     border-radius: 50%;
+    
+    &.is-highlighted {
+        border: 2px solid rgba(white, 0.6);
+    }
+
+    &.is-darkened {
+        opacity: .3;
+    }
 
     @for $i from 1 through 8 {
         &.planet-item-#{$i} {
@@ -19,7 +27,6 @@
             animation: orbiting math.pow($i, 1.25) * 1000s infinite;
         }
     }
-
 }
 
 $planet-sizes: (

@@ -6,11 +6,10 @@ import PlanetItem from './components/PlanetItem/PlanetItem';
 import Search from './components/Search/Search';
 
 function App() {
+
     const [search, setSearch] = useState('');
 
-    const filteredPlanets = Planets.filter(planet =>
-        planet.name.toLowerCase().includes(search.toLowerCase())
-    );
+    const filteredPlanets = search.length >= 3 ? Planets.filter(planet => planet.name.toLowerCase().includes(search.toLowerCase())) : [];
 
     return (
         <>
@@ -22,9 +21,15 @@ function App() {
                     <h2>Soleil</h2>
                 </div>
                 <div className="planets-list">
-                    {filteredPlanets.map(planet => (
-                        <PlanetItem key={planet.id} planet={planet} />
-                    ))}
+                    {Planets.map(planet => {
+                        const isHighlighted = filteredPlanets.some(fp => fp.id === planet.id);
+                        return (
+                            <PlanetItem key={planet.id}
+                            planet={planet}
+                            isHighlighted={isHighlighted}
+                            isDarkened={search.length >= 3 && !isHighlighted} />
+                        );
+                    })}
                 </div>
             </div>
         </>

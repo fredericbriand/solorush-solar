@@ -1,1 +1,1 @@
-import "./PlanetCard.scss";
+import styles from "./PlanetCard.module.scss";

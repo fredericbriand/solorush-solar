@@ -1,8 +1,8 @@
-import "./Search.scss";
+import styles from "./Search.module.scss";
 
 function Search({ search, setSearch }) {
   return (
-    <div className="search-bar">
+    <div className={styles['search-bar']}>
       <input
         type="text"
         placeholder="Rechercher une planète..."
