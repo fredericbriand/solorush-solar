@@ -1,0 +1,14 @@
+.search-bar {
+    text-align: center;
+    padding: var(--spacer-small);
+
+    input {
+        background-color: var(--primary);
+        border: none;
+        border-radius: 20px;
+        padding: var(--spacer-small) var(--spacer-large);
+        &::placeholder {
+            color: rgba(white, 0.5);
+        }
+    }
+}
