@@ -1,7 +1,7 @@
 import "./PlanetItem.scss";
 import type { Planet } from "../../types/planet";
 
-function PlanetItem({ planet, isHighlighted, isDarkened } : { planet: Planet["planet"], isHighlighted: boolean, isDarkened: boolean }) {
+function PlanetItem({ planet, isHighlighted, isDarkened } : { planet: Planet, isHighlighted: boolean, isDarkened: boolean }) {
     return (
         <div className={`planet-item planet-item-${planet.id}${isHighlighted ? ' ' + 'is-highlighted' : ''}${isDarkened ? ' ' + 'is-darkened' : ''}`}>
             <div className={'planet-sphere' + " " + planet.name.toLowerCase()}>
