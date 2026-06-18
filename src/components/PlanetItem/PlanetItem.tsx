@@ -1,4 +1,5 @@
-import type { Planet } from "../types/planet";
+import "./PlanetItem.scss";
+import type { Planet } from "../../types/planet";
 
 function PlanetItem({ planet } : Planet) {
     return (

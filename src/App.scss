@@ -1,3 +1,10 @@
 body {
-    background-image: linear-gradient(to left, #3B0270 0%, #6F00FF 100%);
+    background-image: linear-gradient(to left, #3B0270 0%, #000957 100%);
+}
+
+.sun {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
 }

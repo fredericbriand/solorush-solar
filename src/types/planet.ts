@@ -2,18 +2,18 @@ export interface Planet {
     planet: {
         id: string;
         name: string;
-        type: "tellurique" | "gazeuse" | "naine";
-        diameter: number;
-        mass: string;
-        distanceFromSun: string;
-        minTemperature: number;
-        maxTemperature: number;
-        rotationDuration: string;
-        revolutionDuration: string;
-        moonsCount: number;
-        rings: boolean;
+        type?: "tellurique" | "gazeuse" | "naine";
+        diameter?: number;
+        mass?: string;
+        distanceFromSun?: string;
+        minTemperature?: number;
+        maxTemperature?: number;
+        rotationDuration?: string;
+        revolutionDuration?: string;
+        moonsCount?: number;
+        rings?: boolean;
         imageUrl: string;
-        moons: Moon[];
+        moons?: Moon[];
     }
 }
 
