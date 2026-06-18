@@ -1,3 +1,58 @@
+@use 'sass:math';
+
 .planet-item {
     position: absolute;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+    display: flex;
+    justify-content: center;
+    border: 2px solid rgba(white, 0.2);
+    border-radius: 50%;
+
+    @for $i from 1 through 8 {
+        &.planet-item-#{$i} {
+            width: $i * 120px;
+            height: $i * 120px;
+            transform: rotate($i * 100deg);
+            animation: orbiting math.pow($i, 1.5) * 1000s infinite;
+        }
+    }
+
+}
+
+$planet-sizes: (
+    "mercure":  15px,
+    "venus":    20px,
+    "terre":    20px,
+    "mars":     15px,
+    "jupiter":  50px,
+    "saturne":  45px,
+    "uranus":   35px,
+    "neptune":  35px,
+);
+
+.planet-sphere {
+    position: relative;
+
+    img {
+        height: inherit;
+    }
+
+    h2 {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        translate: -50% -50%;
+        user-select: none;
+        opacity: 0;
+    }
+
+    @each $name, $size in $planet-sizes {
+        &.#{$name} {
+            width: $size;
+            height: $size;
+            margin-top: - $size / 2;
+        }
+    }
 }

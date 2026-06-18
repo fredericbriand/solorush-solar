@@ -11,6 +11,13 @@ h1, h2 {
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 3px;
+}
+
+h1 {
+    font-size: 1.2rem;
+}
+
+h2 {
     font-size: 1rem;
-    margin-top: var(--spacer-small);
+    //margin-top: var(--spacer-small);
 }

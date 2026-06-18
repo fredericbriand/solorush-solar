@@ -5,7 +5,7 @@ import PlanetItem from './components/PlanetItem/PlanetItem';
 
 function App() {
     return (
-        <div className="App">
+        <>
             <h1>Solar System</h1>
             <div className="solar-system">
                 <div className="sun">
@@ -18,7 +18,7 @@ function App() {
                     ))}
                 </div>
             </div>
-        </div>
+        </>
     );
 }
 
