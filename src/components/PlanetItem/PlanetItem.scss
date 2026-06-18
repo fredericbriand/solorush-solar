@@ -12,6 +12,16 @@
     
     &.is-highlighted {
         border: 2px solid rgba(white, 0.6);
+        .planet-sphere {
+            h2 {
+                opacity: 1;
+            }
+            img {
+                border: 2px dashed var(--correct);
+                border-radius: 50%;
+                animation: orbiting 1000s infinite;
+            }
+        }
     }
 
     &.is-darkened {
@@ -30,14 +40,14 @@
 }
 
 $planet-sizes: (
-    "mercure":  20px,
-    "venus":    28px,
-    "terre":    30px,
-    "mars":     20px,
-    "jupiter":  50px,
-    "saturne":  45px,
-    "uranus":   38px,
-    "neptune":  38px,
+    "mercure":  40px,
+    "venus":    48px,
+    "terre":    48px,
+    "mars":     40px,
+    "jupiter":  70px,
+    "saturne":  65px,
+    "uranus":   58px,
+    "neptune":  58px,
 );
 
 .planet-sphere {
@@ -51,13 +61,16 @@ $planet-sizes: (
     img {
         display: inline-block;
         height: inherit;
+        width: inherit;
+        border: 2px solid transparent;
+        padding: var(--spacer-small);
     }
 
     h2 {
         position: absolute;
         left: 50%;
-        top: 50%;
-        translate: -50% -50%;
+        bottom: -20px;
+        translate: -50%;
         user-select: none;
         opacity: 0;
     }

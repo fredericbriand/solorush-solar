@@ -1,10 +1,10 @@
-import styles from "./PlanetItem.module.scss";
+import "./PlanetItem.scss";
 import type { Planet } from "../../types/planet";
 
 function PlanetItem({ planet, isHighlighted, isDarkened } : { planet: Planet["planet"], isHighlighted: boolean, isDarkened: boolean }) {
     return (
-        <div className={`${styles['planet-item']} ${styles['planet-item-' + planet.id]} ${isHighlighted ? styles['is-highlighted'] : ''} ${isDarkened ? styles['is-darkened'] : ''}`}>
-            <div className={`${styles['planet-sphere']} ${styles[planet.name.toLowerCase()]}`}>
+        <div className={`planet-item planet-item-${planet.id}${isHighlighted ? ' ' + 'is-highlighted' : ''}${isDarkened ? ' ' + 'is-darkened' : ''}`}>
+            <div className={'planet-sphere' + " " + planet.name.toLowerCase()}>
                 <img src={planet.imageUrl} alt={planet.name} />
                 <h2>{planet.name}</h2>
             </div>
