@@ -3,6 +3,7 @@ import "./App.scss";
 import Planets from "./data/planets.json";
 
 import PlanetItem from './components/PlanetItem/PlanetItem';
+import PlanetCard from './components/PlanetCard/PlanetCard';
 import Search from './components/Search/Search';
 
 function App() {
@@ -13,7 +14,7 @@ function App() {
 
     return (
         <>
-            <h1>Solar System</h1>
+            <h1>— Solar System —</h1>
             <Search search={search} setSearch={setSearch} />
             <div className="solar-system">
                 <div className="sun">
@@ -32,6 +33,11 @@ function App() {
                     })}
                 </div>
             </div>
+            <section className="planet-cards">
+                {Planets.map(planet => (
+                    <PlanetCard key={planet.id} planet={planet} />
+                ))}
+            </section>
         </>
     );
 }

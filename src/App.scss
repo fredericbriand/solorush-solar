@@ -9,36 +9,48 @@ body {
 }
 
 #root {
+    display: flex;
+    flex-wrap: wrap;
     height: 100%;
 }
 
 h1 {
+    flex-basis: 100%;
     padding-top: var(--spacer-small);
 }
 
 .solar-system {
     position: relative;
+    flex-basis: 50%;
     height: 100%;
     width: 60vw;
+    .sun {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        translate: -50% -50%;
+        text-align: center;
+        img {
+            $sun: 60px;
+            width: $sun;
+            height: $sun;
+        }
+        h2 {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            translate: -50% -50%;
+            opacity: 0;
+            user-select: none;
+        }
+    }
 }
 
-.sun {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    translate: -50% -50%;
-    text-align: center;
-    img {
-        $sun: 60px;
-        width: $sun;
-        height: $sun;
-    }
-    h2 {
-        position: absolute;
-        left: 50%;
-        top: 50%;
-        translate: -50% -50%;
-        opacity: 0;
-        user-select: none;
-    }
+
+.planet-cards {
+    flex-basis: 50%;
+    display: flex;
+    justify-content: flex-end;
+    z-index: 100;
+    padding: var(--spacer-large);
 }
