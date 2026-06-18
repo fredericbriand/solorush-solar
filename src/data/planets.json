@@ -1,0 +1,280 @@
+[
+  {
+    "id": "mercury",
+    "name": "Mercure",
+    "type": "tellurique",
+    "diameter": 4879,
+    "mass": "3.30 x 10^23 kg",
+    "distanceFromSun": "57.9 millions km",
+    "minTemperature": -180,
+    "maxTemperature": 430,
+    "rotationDuration": "58.6 jours",
+    "revolutionDuration": "88 jours",
+    "moonsCount": 0,
+    "rings": false,
+    "imageUrl": "https://exemple.com/images/mercury.jpg",
+    "moons": []
+  },
+  {
+    "id": "venus",
+    "name": "Vénus",
+    "type": "tellurique",
+    "diameter": 12104,
+    "mass": "4.87 x 10^24 kg",
+    "distanceFromSun": "108.2 millions km",
+    "minTemperature": 460,
+    "maxTemperature": 460,
+    "rotationDuration": "243 jours",
+    "revolutionDuration": "224.7 jours",
+    "moonsCount": 0,
+    "rings": false,
+    "imageUrl": "https://exemple.com/images/venus.jpg",
+    "moons": []
+  },
+  {
+    "id": "earth",
+    "name": "Terre",
+    "type": "tellurique",
+    "diameter": 12742,
+    "mass": "5.97 x 10^24 kg",
+    "distanceFromSun": "149.6 millions km",
+    "minTemperature": -88,
+    "maxTemperature": 58,
+    "rotationDuration": "24h",
+    "revolutionDuration": "365.25 jours",
+    "moonsCount": 1,
+    "rings": false,
+    "imageUrl": "https://exemple.com/images/earth.jpg",
+    "moons": [
+      {
+        "id": "moon",
+        "name": "Lune",
+        "diameter": 3474,
+        "mass": "7.35 x 10^22 kg",
+        "revolutionDuration": "27.3 jours",
+        "imageUrl": "https://exemple.com/images/moon.jpg"
+      }
+    ]
+  },
+  {
+    "id": "mars",
+    "name": "Mars",
+    "type": "tellurique",
+    "diameter": 6779,
+    "mass": "6.42 x 10^23 kg",
+    "distanceFromSun": "227.9 millions km",
+    "minTemperature": -140,
+    "maxTemperature": 20,
+    "rotationDuration": "24.6h",
+    "revolutionDuration": "687 jours",
+    "moonsCount": 2,
+    "rings": false,
+    "imageUrl": "https://exemple.com/images/mars.jpg",
+    "moons": [
+      {
+        "id": "phobos",
+        "name": "Phobos",
+        "diameter": 22.4,
+        "mass": "1.07 x 10^16 kg",
+        "revolutionDuration": "0.32 jours",
+        "imageUrl": "https://exemple.com/images/phobos.jpg"
+      },
+      {
+        "id": "deimos",
+        "name": "Deimos",
+        "diameter": 12.4,
+        "mass": "1.48 x 10^15 kg",
+        "revolutionDuration": "1.26 jours",
+        "imageUrl": "https://exemple.com/images/deimos.jpg"
+      }
+    ]
+  },
+  {
+    "id": "jupiter",
+    "name": "Jupiter",
+    "type": "gazeuse",
+    "diameter": 139820,
+    "mass": "1.90 x 10^27 kg",
+    "distanceFromSun": "778.5 millions km",
+    "minTemperature": -145,
+    "maxTemperature": -110,
+    "rotationDuration": "9.9h",
+    "revolutionDuration": "11.86 ans",
+    "moonsCount": 95,
+    "rings": true,
+    "imageUrl": "https://exemple.com/images/jupiter.jpg",
+    "moons": [
+      {
+        "id": "io",
+        "name": "Io",
+        "diameter": 3643,
+        "mass": "8.93 x 10^22 kg",
+        "revolutionDuration": "1.77 jours",
+        "imageUrl": "https://exemple.com/images/io.jpg"
+      },
+      {
+        "id": "europa",
+        "name": "Europe",
+        "diameter": 3122,
+        "mass": "4.8 x 10^22 kg",
+        "revolutionDuration": "3.55 jours",
+        "imageUrl": "https://exemple.com/images/europa.jpg"
+      },
+      {
+        "id": "ganymede",
+        "name": "Ganymède",
+        "diameter": 5268,
+        "mass": "1.48 x 10^23 kg",
+        "revolutionDuration": "7.15 jours",
+        "imageUrl": "https://exemple.com/images/ganymede.jpg"
+      },
+      {
+        "id": "callisto",
+        "name": "Callisto",
+        "diameter": 4821,
+        "mass": "1.08 x 10^23 kg",
+        "revolutionDuration": "16.7 jours",
+        "imageUrl": "https://exemple.com/images/callisto.jpg"
+      }
+    ]
+  },
+  {
+    "id": "saturn",
+    "name": "Saturne",
+    "type": "gazeuse",
+    "diameter": 116460,
+    "mass": "5.68 x 10^26 kg",
+    "distanceFromSun": "1.434 milliards km",
+    "minTemperature": -195,
+    "maxTemperature": -130,
+    "rotationDuration": "10.7h",
+    "revolutionDuration": "29.4 ans",
+    "moonsCount": 146,
+    "rings": true,
+    "imageUrl": "https://exemple.com/images/saturn.jpg",
+    "moons": [
+      {
+        "id": "titan",
+        "name": "Titan",
+        "diameter": 5149,
+        "mass": "1.35 x 10^23 kg",
+        "revolutionDuration": "15.9 jours",
+        "imageUrl": "https://exemple.com/images/titan.jpg"
+      },
+      {
+        "id": "rhea",
+        "name": "Rhéa",
+        "diameter": 1527,
+        "mass": "2.31 x 10^21 kg",
+        "revolutionDuration": "4.5 jours",
+        "imageUrl": "https://exemple.com/images/rhea.jpg"
+      },
+      {
+        "id": "iapetus",
+        "name": "Iapetus",
+        "diameter": 1469,
+        "mass": "1.81 x 10^21 kg",
+        "revolutionDuration": "79.3 jours",
+        "imageUrl": "https://exemple.com/images/iapetus.jpg"
+      },
+      {
+        "id": "dione",
+        "name": "Dioné",
+        "diameter": 1123,
+        "mass": "1.10 x 10^21 kg",
+        "revolutionDuration": "2.7 jours",
+        "imageUrl": "https://exemple.com/images/dione.jpg"
+      }
+    ]
+  },
+  {
+    "id": "uranus",
+    "name": "Uranus",
+    "type": "gazeuse",
+    "diameter": 50724,
+    "mass": "8.68 x 10^25 kg",
+    "distanceFromSun": "2.871 milliards km",
+    "minTemperature": -224,
+    "maxTemperature": -195,
+    "rotationDuration": "17.2h",
+    "revolutionDuration": "84 ans",
+    "moonsCount": 28,
+    "rings": true,
+    "imageUrl": "https://exemple.com/images/uranus.jpg",
+    "moons": [
+      {
+        "id": "titania",
+        "name": "Titania",
+        "diameter": 1578,
+        "mass": "3.4 x 10^21 kg",
+        "revolutionDuration": "8.7 jours",
+        "imageUrl": "https://exemple.com/images/titania.jpg"
+      },
+      {
+        "id": "oberon",
+        "name": "Oberon",
+        "diameter": 1523,
+        "mass": "3.1 x 10^21 kg",
+        "revolutionDuration": "13.5 jours",
+        "imageUrl": "https://exemple.com/images/oberon.jpg"
+      },
+      {
+        "id": "umbriel",
+        "name": "Umbriel",
+        "diameter": 1169,
+        "mass": "1.27 x 10^21 kg",
+        "revolutionDuration": "4.1 jours",
+        "imageUrl": "https://exemple.com/images/umbriel.jpg"
+      },
+      {
+        "id": "ariel",
+        "name": "Ariel",
+        "diameter": 1158,
+        "mass": "1.25 x 10^21 kg",
+        "revolutionDuration": "2.5 jours",
+        "imageUrl": "https://exemple.com/images/ariel.jpg"
+      }
+    ]
+  },
+  {
+    "id": "neptune",
+    "name": "Neptune",
+    "type": "gazeuse",
+    "diameter": 49244,
+    "mass": "1.02 x 10^26 kg",
+    "distanceFromSun": "4.495 milliards km",
+    "minTemperature": -218,
+    "maxTemperature": -200,
+    "rotationDuration": "16.1h",
+    "revolutionDuration": "164.8 ans",
+    "moonsCount": 16,
+    "rings": true,
+    "imageUrl": "https://exemple.com/images/neptune.jpg",
+    "moons": [
+      {
+        "id": "triton",
+        "name": "Triton",
+        "diameter": 2707,
+        "mass": "2.14 x 10^22 kg",
+        "revolutionDuration": "5.9 jours",
+        "imageUrl": "https://exemple.com/images/triton.jpg"
+      },
+      {
+        "id": "proteus",
+        "name": "Protée",
+        "diameter": 420,
+        "mass": "5.0 x 10^19 kg",
+        "revolutionDuration": "1.12 jours",
+        "imageUrl": "https://exemple.com/images/proteus.jpg"
+      },
+      {
+        "id": "nereid",
+        "name": "Néréide",
+        "diameter": 340,
+        "mass": "3.1 x 10^19 kg",
+        "revolutionDuration": "360.1 jours",
+        "imageUrl": "https://exemple.com/images/nereid.jpg"
+      }
+    ]
+  }
+]
