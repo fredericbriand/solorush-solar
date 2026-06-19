@@ -1,0 +1,14 @@
+{
+  "name": "Nom",
+  "type": "Type",
+  "diameter": "Diamètre (km)",
+  "mass": "Masse",
+  "distanceFromSun": "Distance du Soleil",
+  "minTemperature": "Température min. (°C)",
+  "maxTemperature": "Température max. (°C)",
+  "rotationDuration": "Durée de rotation",
+  "revolutionDuration": "Durée de révolution",
+  "moonsCount": "Nombre de lunes",
+  "rings": "Anneaux",
+  "moons": "Lunes"
+}
