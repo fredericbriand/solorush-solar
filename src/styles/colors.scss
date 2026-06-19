@@ -1,7 +1,18 @@
 :root {
-    --primary: #26355D;
+    --primary: #6F00FF;
     --primary-light: color-mix(in srgb, var(--primary) 80%, white);
     --primary-dark: color-mix(in srgb, var(--primary) 80%, black);
+    
+    --mercure: #c5d3dd;
+    --venus: #fdb97e;
+    --terre: #80d261;
+    --mars: #e94444;
+    --jupiter: #fdb97e;
+    --saturne: #fee97d;
+    --uranus: #a6e7f0;
+    --neptune: #6bd9e7;
+
+    --background: #26355D;
 
     --correct: #9BEC00;
 

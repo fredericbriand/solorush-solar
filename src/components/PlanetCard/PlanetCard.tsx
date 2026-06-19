@@ -3,8 +3,8 @@ import type { Planet } from "../../types/planet";
 
 function PlanetCard ({ planet } : { planet: Planet}) {
     return (
-        <article className={styles['article']}>
-            <div>
+        <article className={`planet-card-${planet.name.toLowerCase()} ${styles['article']}`}>
+            <div className={styles['visual']}>
                 <img src={ planet.imageUrl } alt={ planet.name } />
                 <h3>{ planet.name }</h3>
                 <span>{ planet.type }</span>

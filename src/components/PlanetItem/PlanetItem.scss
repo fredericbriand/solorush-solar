@@ -10,7 +10,7 @@
     border: 2px solid rgba(white, 0.2);
     border-radius: 50%;
     
-    &.is-highlighted {
+    &.is-highlighted, &.is-selected {
         border: 2px solid rgba(white, 0.6);
         .planet-sphere {
             h2 {
@@ -26,6 +26,7 @@
 
     &.is-darkened {
         opacity: .3;
+        pointer-events: none;
     }
 
     @for $i from 1 through 8 {
@@ -69,6 +70,7 @@ $planet-sizes: (
         width: inherit;
         border: 2px solid transparent;
         padding: var(--spacer-small);
+        -webkit-user-drag: none;
     }
 
     h2 {

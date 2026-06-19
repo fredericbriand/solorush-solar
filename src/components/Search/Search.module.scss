@@ -4,9 +4,10 @@
     padding: var(--spacer-small);
 
     input {
-        background-color: var(--primary);
+        background-color: var(--background);
         border: none;
         border-radius: 20px;
+        box-shadow: 5px 5px 26px -4px rgba(black ,0.25);
         padding: var(--spacer-small) var(--spacer-large);
         &::placeholder {
             color: rgba(white, 0.5);

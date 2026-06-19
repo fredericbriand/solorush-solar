@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import "./App.scss";
 import Planets from "./data/planets.json";
 
@@ -10,6 +10,25 @@ function App() {
 
     const [search, setSearch] = useState('');
     const [selectedPlanetId, setSelectedPlanetId] = useState<number | null>(null);
+
+    useEffect(() => {
+        const handleKeyDown = (e: KeyboardEvent) => {
+            if (e.key === 'Escape') setSelectedPlanetId(null);
+        };
+        const handleClickOutside = (e: MouseEvent) => {
+            if (!(e.target as Element).closest('.planet-sphere')) {
+                setSelectedPlanetId(null);
+            }
+        };
+
+        document.addEventListener('keydown', handleKeyDown);
+        document.addEventListener('click', handleClickOutside);
+
+        return () => {
+            document.removeEventListener('keydown', handleKeyDown);
+            document.removeEventListener('click', handleClickOutside);
+        };
+    }, []);
 
     const filteredPlanets = search.length >= 3 ? Planets.filter(planet => planet.name.toLowerCase().includes(search.toLowerCase())) : [];
 
@@ -30,6 +49,7 @@ function App() {
                             planet={planet}
                             isHighlighted={isHighlighted}
                             isDarkened={search.length >= 3 && !isHighlighted} 
+                            isSelected={planet.id === selectedPlanetId} 
                             onSelect={() => setSelectedPlanetId(planet.id)} />
                         );
                     })}
