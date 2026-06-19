@@ -29,7 +29,7 @@ $planets: mercure, venus, terre, mars, jupiter, saturne, uranus, neptune;
 }
 
 .visual {
-    flex-basis: 50%;
+    flex-basis: 45%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -58,16 +58,46 @@ $planets: mercure, venus, terre, mars, jupiter, saturne, uranus, neptune;
     margin-bottom: var(--spacer-medium);
     span {
         display: block;
-        &.label {
-            color: currentColor;
-            font-weight: 500;
-        }
-        &.field {
-            color: white;
-        }
     }
 }
 
+.label {
+    color: currentColor;
+    font-weight: 500;
+}
+
+.field {
+    color: white;
+}
+
 .bottom {
-    color: red;
+    text-align: center;
+    margin-top: var(--spacer-large);
+
+    ul {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        gap: var(--spacer-small);
+        margin-top: var(--spacer-large);
+
+        li {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            img {
+                width: 50px;
+                margin-bottom: var(--spacer-small);
+            }
+
+            span {
+                font-size: .8rem;
+                &:last-child {
+                    color: var(--grey-light);
+                    font-size: .7rem;
+                }
+            }
+        }
+    }
 }

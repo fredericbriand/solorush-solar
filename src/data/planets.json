@@ -52,7 +52,7 @@
         "diameter": 3474,
         "mass": "7.35 x 10^22 kg",
         "revolutionDuration": "27.3 jours",
-        "imageUrl": "https://cdn-icons-png.flaticon.com/128/2949/2949009.png"
+        "imageUrl": "/src/assets/moon.svg"
       }
     ]
   },
@@ -77,7 +77,7 @@
         "diameter": 22.4,
         "mass": "1.07 x 10^16 kg",
         "revolutionDuration": "0.32 jours",
-        "imageUrl": "https://exemple.com/images/phobos.jpg"
+        "imageUrl": "/src/assets/moon.svg"
       },
       {
         "id": 2,
@@ -85,7 +85,7 @@
         "diameter": 12.4,
         "mass": "1.48 x 10^15 kg",
         "revolutionDuration": "1.26 jours",
-        "imageUrl": "https://exemple.com/images/deimos.jpg"
+        "imageUrl": "/src/assets/moon.svg"
       }
     ]
   },
@@ -110,7 +110,7 @@
         "diameter": 3643,
         "mass": "8.93 x 10^22 kg",
         "revolutionDuration": "1.77 jours",
-        "imageUrl": "https://exemple.com/images/io.jpg"
+        "imageUrl": "/src/assets/moon.svg"
       },
       {
         "id": 2,
@@ -118,7 +118,7 @@
         "diameter": 3122,
         "mass": "4.8 x 10^22 kg",
         "revolutionDuration": "3.55 jours",
-        "imageUrl": "https://exemple.com/images/europa.jpg"
+        "imageUrl": "/src/assets/moon.svg"
       },
       {
         "id": 3,
@@ -126,7 +126,7 @@
         "diameter": 5268,
         "mass": "1.48 x 10^23 kg",
         "revolutionDuration": "7.15 jours",
-        "imageUrl": "https://exemple.com/images/ganymede.jpg"
+        "imageUrl": "/src/assets/moon.svg"
       },
       {
         "id": 4,
@@ -134,7 +134,7 @@
         "diameter": 4821,
         "mass": "1.08 x 10^23 kg",
         "revolutionDuration": "16.7 jours",
-        "imageUrl": "https://exemple.com/images/callisto.jpg"
+        "imageUrl": "/src/assets/moon.svg"
       }
     ]
   },
@@ -159,7 +159,7 @@
         "diameter": 5149,
         "mass": "1.35 x 10^23 kg",
         "revolutionDuration": "15.9 jours",
-        "imageUrl": "https://exemple.com/images/titan.jpg"
+        "imageUrl": "/src/assets/moon.svg"
       },
       {
         "id": 2,
@@ -167,7 +167,7 @@
         "diameter": 1527,
         "mass": "2.31 x 10^21 kg",
         "revolutionDuration": "4.5 jours",
-        "imageUrl": "https://exemple.com/images/rhea.jpg"
+        "imageUrl": "/src/assets/moon.svg"
       },
       {
         "id": 3,
@@ -175,7 +175,7 @@
         "diameter": 1469,
         "mass": "1.81 x 10^21 kg",
         "revolutionDuration": "79.3 jours",
-        "imageUrl": "https://exemple.com/images/iapetus.jpg"
+        "imageUrl": "/src/assets/moon.svg"
       },
       {
         "id": 4,
@@ -183,7 +183,7 @@
         "diameter": 1123,
         "mass": "1.10 x 10^21 kg",
         "revolutionDuration": "2.7 jours",
-        "imageUrl": "https://exemple.com/images/dione.jpg"
+        "imageUrl": "/src/assets/moon.svg"
       }
     ]
   },
@@ -208,7 +208,7 @@
         "diameter": 1578,
         "mass": "3.4 x 10^21 kg",
         "revolutionDuration": "8.7 jours",
-        "imageUrl": "https://exemple.com/images/titania.jpg"
+        "imageUrl": "/src/assets/moon.svg"
       },
       {
         "id": "2",
@@ -216,7 +216,7 @@
         "diameter": 1523,
         "mass": "3.1 x 10^21 kg",
         "revolutionDuration": "13.5 jours",
-        "imageUrl": "https://exemple.com/images/oberon.jpg"
+        "imageUrl": "/src/assets/moon.svg"
       },
       {
         "id": 3,
@@ -224,7 +224,7 @@
         "diameter": 1169,
         "mass": "1.27 x 10^21 kg",
         "revolutionDuration": "4.1 jours",
-        "imageUrl": "https://exemple.com/images/umbriel.jpg"
+        "imageUrl": "/src/assets/moon.svg"
       },
       {
         "id": 4,
@@ -232,7 +232,7 @@
         "diameter": 1158,
         "mass": "1.25 x 10^21 kg",
         "revolutionDuration": "2.5 jours",
-        "imageUrl": "https://exemple.com/images/ariel.jpg"
+        "imageUrl": "/src/assets/moon.svg"
       }
     ]
   },
@@ -257,7 +257,7 @@
         "diameter": 2707,
         "mass": "2.14 x 10^22 kg",
         "revolutionDuration": "5.9 jours",
-        "imageUrl": "https://exemple.com/images/triton.jpg"
+        "imageUrl": "/src/assets/moon.svg"
       },
       {
         "id": 2,
@@ -265,7 +265,7 @@
         "diameter": 420,
         "mass": "5.0 x 10^19 kg",
         "revolutionDuration": "1.12 jours",
-        "imageUrl": "https://exemple.com/images/proteus.jpg"
+        "imageUrl": "/src/assets/moon.svg"
       },
       {
         "id": 3,
@@ -273,7 +273,7 @@
         "diameter": 340,
         "mass": "3.1 x 10^19 kg",
         "revolutionDuration": "360.1 jours",
-        "imageUrl": "https://exemple.com/images/nereid.jpg"
+        "imageUrl": "/src/assets/moon.svg"
       }
     ]
   }
