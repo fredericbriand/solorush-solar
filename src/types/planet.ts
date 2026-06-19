@@ -1,5 +1,5 @@
 export interface Planet {
-    id: string;
+    id: number;
     name: string;
     type?: "tellurique" | "gazeuse" | "naine";
     diameter?: number;
@@ -16,7 +16,7 @@ export interface Planet {
 }
 
 export interface Moon {
-    id: string;
+    id: number;
     name: string;
     diameter: number;
     mass: string;

@@ -9,6 +9,7 @@ import Search from './components/Search/Search';
 function App() {
 
     const [search, setSearch] = useState('');
+    const [selectedPlanetId, setSelectedPlanetId] = useState<number | null>(null);
 
     const filteredPlanets = search.length >= 3 ? Planets.filter(planet => planet.name.toLowerCase().includes(search.toLowerCase())) : [];
 
@@ -28,15 +29,18 @@ function App() {
                             <PlanetItem key={planet.id}
                             planet={planet}
                             isHighlighted={isHighlighted}
-                            isDarkened={search.length >= 3 && !isHighlighted} />
+                            isDarkened={search.length >= 3 && !isHighlighted} 
+                            onSelect={() => setSelectedPlanetId(planet.id)} />
                         );
                     })}
                 </div>
             </div>
             <section className="planet-cards">
-                {Planets.map(planet => (
-                    <PlanetCard key={planet.id} planet={planet} />
-                ))}
+                {selectedPlanetId !== null && (
+                    <PlanetCard
+                        planet={Planets.find(planet => planet.id === selectedPlanetId)!}
+                    />
+                )}
             </section>
         </>
     );

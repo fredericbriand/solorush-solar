@@ -33,8 +33,11 @@
             width: $i * 120px;
             height: $i * 120px;
             z-index: 9 - $i;
-            transform: rotate($i * 100deg);
+            transform: rotate($i * 90deg);
             animation: orbiting math.pow($i, 1.25) * 1000s infinite;
+            &:has(.planet-sphere:focus), &:has(.planet-sphere:hover) {
+                animation-play-state: paused;
+            }
         }
     }
 }
@@ -52,6 +55,8 @@ $planet-sizes: (
 
 .planet-sphere {
     position: relative;
+    background-color: transparent;
+    border: none;
     cursor: pointer;
     &:focus img, &:hover img {
         scale: 1.3;

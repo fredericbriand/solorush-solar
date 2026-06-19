@@ -5,9 +5,9 @@ function PlanetCard ({ planet } : { planet: Planet}) {
     return (
         <article className={styles['article']}>
             <div>
+                <img src={ planet.imageUrl } alt={ planet.name } />
                 <h3>{ planet.name }</h3>
                 <span>{ planet.type }</span>
-                <img src={ planet.imageUrl } alt={ planet.name } />
             </div>
             <div>
                 <span>{ planet.diameter }</span>

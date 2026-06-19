@@ -1,6 +1,6 @@
 [
   {
-    "id": "1",
+    "id": 1,
     "name": "Mercure",
     "type": "tellurique",
     "diameter": 4879,
@@ -16,7 +16,7 @@
     "moons": []
   },
   {
-    "id": "2",
+    "id": 2,
     "name": "Venus",
     "type": "tellurique",
     "diameter": 12104,
@@ -32,7 +32,7 @@
     "moons": []
   },
   {
-    "id": "3",
+    "id": 3,
     "name": "Terre",
     "type": "tellurique",
     "diameter": 12742,
@@ -47,7 +47,7 @@
     "imageUrl": "https://cdn-icons-png.flaticon.com/128/2949/2949040.png",
     "moons": [
       {
-        "id": "1",
+        "id": 1,
         "name": "Lune",
         "diameter": 3474,
         "mass": "7.35 x 10^22 kg",
@@ -57,7 +57,7 @@
     ]
   },
   {
-    "id": "4",
+    "id": 4,
     "name": "Mars",
     "type": "tellurique",
     "diameter": 6779,
@@ -72,7 +72,7 @@
     "imageUrl": "https://cdn-icons-png.flaticon.com/128/2949/2949037.png",
     "moons": [
       {
-        "id": "1",
+        "id": 1,
         "name": "Phobos",
         "diameter": 22.4,
         "mass": "1.07 x 10^16 kg",
@@ -80,7 +80,7 @@
         "imageUrl": "https://exemple.com/images/phobos.jpg"
       },
       {
-        "id": "2",
+        "id": 2,
         "name": "Deimos",
         "diameter": 12.4,
         "mass": "1.48 x 10^15 kg",
@@ -90,7 +90,7 @@
     ]
   },
   {
-    "id": "5",
+    "id": 5,
     "name": "Jupiter",
     "type": "gazeuse",
     "diameter": 139820,
@@ -105,7 +105,7 @@
     "imageUrl": "https://cdn-icons-png.flaticon.com/128/2949/2949010.png",
     "moons": [
       {
-        "id": "1",
+        "id": 1,
         "name": "Io",
         "diameter": 3643,
         "mass": "8.93 x 10^22 kg",
@@ -113,7 +113,7 @@
         "imageUrl": "https://exemple.com/images/io.jpg"
       },
       {
-        "id": "2",
+        "id": 2,
         "name": "Europe",
         "diameter": 3122,
         "mass": "4.8 x 10^22 kg",
@@ -121,7 +121,7 @@
         "imageUrl": "https://exemple.com/images/europa.jpg"
       },
       {
-        "id": "3",
+        "id": 3,
         "name": "Ganymede",
         "diameter": 5268,
         "mass": "1.48 x 10^23 kg",
@@ -129,7 +129,7 @@
         "imageUrl": "https://exemple.com/images/ganymede.jpg"
       },
       {
-        "id": "4",
+        "id": 4,
         "name": "Callisto",
         "diameter": 4821,
         "mass": "1.08 x 10^23 kg",
@@ -139,7 +139,7 @@
     ]
   },
   {
-    "id": "6",
+    "id": 6,
     "name": "Saturne",
     "type": "gazeuse",
     "diameter": 116460,
@@ -154,7 +154,7 @@
     "imageUrl": "https://cdn-icons-png.flaticon.com/128/2949/2949013.png",
     "moons": [
       {
-        "id": "1",
+        "id": 1,
         "name": "Titan",
         "diameter": 5149,
         "mass": "1.35 x 10^23 kg",
@@ -162,7 +162,7 @@
         "imageUrl": "https://exemple.com/images/titan.jpg"
       },
       {
-        "id": "2",
+        "id": 2,
         "name": "Rhea",
         "diameter": 1527,
         "mass": "2.31 x 10^21 kg",
@@ -170,7 +170,7 @@
         "imageUrl": "https://exemple.com/images/rhea.jpg"
       },
       {
-        "id": "3",
+        "id": 3,
         "name": "Iapetus",
         "diameter": 1469,
         "mass": "1.81 x 10^21 kg",
@@ -178,7 +178,7 @@
         "imageUrl": "https://exemple.com/images/iapetus.jpg"
       },
       {
-        "id": "4",
+        "id": 4,
         "name": "Dione",
         "diameter": 1123,
         "mass": "1.10 x 10^21 kg",
@@ -188,7 +188,7 @@
     ]
   },
   {
-    "id": "7",
+    "id": 7,
     "name": "Uranus",
     "type": "gazeuse",
     "diameter": 50724,
@@ -203,7 +203,7 @@
     "imageUrl": "https://cdn-icons-png.flaticon.com/128/2949/2949019.png",
     "moons": [
       {
-        "id": "1",
+        "id": 1,
         "name": "Titania",
         "diameter": 1578,
         "mass": "3.4 x 10^21 kg",
@@ -219,7 +219,7 @@
         "imageUrl": "https://exemple.com/images/oberon.jpg"
       },
       {
-        "id": "3",
+        "id": 3,
         "name": "Umbriel",
         "diameter": 1169,
         "mass": "1.27 x 10^21 kg",
@@ -227,7 +227,7 @@
         "imageUrl": "https://exemple.com/images/umbriel.jpg"
       },
       {
-        "id": "4",
+        "id": 4,
         "name": "Ariel",
         "diameter": 1158,
         "mass": "1.25 x 10^21 kg",
@@ -237,7 +237,7 @@
     ]
   },
   {
-    "id": "8",
+    "id": 8,
     "name": "Neptune",
     "type": "gazeuse",
     "diameter": 49244,
@@ -252,7 +252,7 @@
     "imageUrl": "https://cdn-icons-png.flaticon.com/128/2949/2949034.png",
     "moons": [
       {
-        "id": "1",
+        "id": 1,
         "name": "Triton",
         "diameter": 2707,
         "mass": "2.14 x 10^22 kg",
@@ -260,7 +260,7 @@
         "imageUrl": "https://exemple.com/images/triton.jpg"
       },
       {
-        "id": "2",
+        "id": 2,
         "name": "Protee",
         "diameter": 420,
         "mass": "5.0 x 10^19 kg",
@@ -268,7 +268,7 @@
         "imageUrl": "https://exemple.com/images/proteus.jpg"
       },
       {
-        "id": "3",
+        "id": 3,
         "name": "Nereide",
         "diameter": 340,
         "mass": "3.1 x 10^19 kg",
