@@ -1,10 +1,14 @@
 import { useState, useEffect } from 'react';
 import "./App.scss";
-import Planets from "./data/planets.json";
+import PlanetsData from "./data/planets.json";
+import type { Planet } from "./types/planet";
 
 import PlanetItem from './components/PlanetItem/PlanetItem';
 import PlanetCard from './components/PlanetCard/PlanetCard';
 import Search from './components/Search/Search';
+
+// The JSON import widens `type` to string; narrow it once here.
+const Planets = PlanetsData as Planet[];
 
 function App() {
 

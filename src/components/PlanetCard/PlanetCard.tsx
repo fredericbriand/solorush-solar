@@ -1,9 +1,9 @@
 import styles from "./PlanetCard.module.scss";
-import type { Planet, Moon } from "../../types/planet";
+import type { Planet } from "../../types/planet";
 
 import Labels from '../../data/labels.json';
 
-function PlanetCard ({ planet, moon } : { planet: Planet, moon: Moon}) {
+function PlanetCard ({ planet } : { planet: Planet }) {
     return (
         <article className={`planet-card-${planet.name.toLowerCase()} ${styles['article']}`}>
             <div className={styles['visual']}>
