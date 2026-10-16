@@ -1,6 +1,11 @@
 import styles from "./Search.module.scss";
 
-function Search({ search, setSearch }) {
+interface SearchProps {
+  search: string;
+  setSearch: (value: string) => void;
+}
+
+function Search({ search, setSearch }: SearchProps) {
   return (
     <div className={styles['search-bar']}>
       <input
