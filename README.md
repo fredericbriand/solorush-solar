@@ -3,6 +3,8 @@
 An interactive solar system explorer — browse the eight planets, search
 them by name, and open any one of them for its figures and its moons.
 
+**[Live demo](https://solorush-solar.netlify.app/)**
+
 <p align="center">
   <img src="docs/screenshots/system.png" alt="Solar — system view" width="32%">
   <img src="docs/screenshots/planet.png" alt="Planet card" width="32%">
